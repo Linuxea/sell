@@ -1,0 +1,17 @@
+logging:
+  pattern:
+    console: "%d - %msg\n"
+  level: debug
+  path: /home/linuxea/Desktop/log/
+spring:
+  datasource:
+    username: root
+    password: linuxea
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+
+
